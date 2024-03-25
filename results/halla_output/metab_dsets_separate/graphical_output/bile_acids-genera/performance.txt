@@ -1,0 +1,40 @@
+HAllA version:	0.8.20
+
+--Configuration parameters--
+  preprocess:
+    max freq thresh               : 1
+    transform funcs               : None
+    discretize bypass if possible : True
+    discretize func               : None
+    discretize num bins           : None
+  association:
+    pdist metric                  : spearman
+  hierarchy:
+    sim2dist set abs              : True
+    sim2dist func                 : None
+    linkage method                : average
+  permute:
+    iters                         : 10000
+    func                          : gpd
+    speedup                       : True
+  stats:
+    fdr alpha                     : 0.05
+    fdr method                    : fdr_bh
+    fnr thresh                    : 0.2
+    rank cluster                  : best
+  output:
+    dir                           : halla_output/metab_dsets_separate/graphical_output/bile_acids-genera
+    verbose                       : False
+
+--Results--
+X shape (# features, # size)                                : (14, 30)
+Y shape (# features, # size)                                : (56, 30)
+Number of significant associations                          : 40
+Number of significant clusters                              : 19
+
+--Durations--
+Loading and preprocessing data                              : 0:00:00.026069
+Computing pairwise similarities, p-values, q-values         : 0:00:00.376092
+Performing hierarchical clustering                          : 0:00:00.385584
+Finding densely associated blocks                           : 0:00:00.030070
+Total execution time                                        : 0:00:00.817816

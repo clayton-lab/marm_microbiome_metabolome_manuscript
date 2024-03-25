@@ -1,0 +1,174 @@
+cluster_rank	cluster_X	cluster_Y	best_adjusted_pvalue
+1	Histidine	Histidine	0.0
+2	Taurine	Taurine	0.0
+3	Serine	Serine	0.0
+4	Glutamine	Glutamine	0.0
+5	Arginine	Arginine	0.0
+6	Glycine	Glycine	0.0
+7	Aspartic Acid	Aspartic Acid	0.0
+8	Threonine	Threonine	0.0
+9	Alanine	Alanine	0.0
+10	Gamma-Aminobutyric Acid	Gamma-Aminobutyric Acid	0.0
+11	Proline	Proline	0.0
+12	L-ornithine	L-ornithine	0.0
+13	Lysine	Lysine	0.0
+14	Methionine	Methionine	0.0
+15	Valine	Valine	0.0
+16	l-Isoleucine	l-Isoleucine	0.0
+17	Leucine	Leucine	0.0
+18	Phenylalanine	Phenylalanine	0.0
+19	Tryptophan	Tryptophan	0.0
+20	Glutamic Acid	Glutamic Acid	0.0
+21	Tyrosine	Tyrosine	0.0
+22	Valine	Leucine	1.4844411292445635e-11
+23	Leucine	Valine	1.4844411292445635e-11
+24	l-Isoleucine	Leucine	1.9681254611044435e-11
+25	Leucine	l-Isoleucine	1.9681254611044435e-11
+26	Histidine	Tryptophan	5.163733000083885e-10
+27	Tryptophan	Histidine	5.163733000083885e-10
+28	Valine	Phenylalanine	3.713493021738423e-09
+29	Phenylalanine	Valine	3.713493021738423e-09
+30	Alanine	Lysine	3.998481389607905e-09
+31	Lysine	Alanine	3.998481389607905e-09
+32	Serine	Gamma-Aminobutyric Acid	6.066941086484836e-08
+33	Gamma-Aminobutyric Acid	Serine	6.066941086484836e-08
+34	Threonine	Proline	1.1346969815785188e-07
+35	Proline	Threonine	1.1346969815785188e-07
+36	Valine	l-Isoleucine	1.5159382280606092e-07
+37	l-Isoleucine	Valine	1.5159382280606092e-07
+38	Histidine	Glutamic Acid	3.269504028670256e-07
+39	Glutamic Acid	Histidine	3.269504028670256e-07
+40	Threonine	Alanine	1.7620561062136385e-06
+41	Alanine	Threonine	1.7620561062136385e-06
+42	Threonine	Lysine	2.788262542034202e-06
+43	Lysine	Threonine	2.788262542034202e-06
+44	Histidine	Glutamine	3.536254341045968e-06
+45	Glutamine	Histidine	3.536254341045968e-06
+46	Glutamine	Glutamic Acid	4.141417100918043e-06
+47	Glutamic Acid	Glutamine	4.141417100918043e-06
+48	Taurine	Tryptophan	5.383211207582348e-06
+49	Leucine	Phenylalanine	5.383211207582348e-06
+50	Phenylalanine	Leucine	5.383211207582348e-06
+51	Tryptophan	Taurine	5.383211207582348e-06
+52	Histidine	Gamma-Aminobutyric Acid	5.43621364265708e-06
+53	Gamma-Aminobutyric Acid	Histidine	5.43621364265708e-06
+54	Histidine	Taurine	7.649590737690326e-06
+55	Taurine	Histidine	7.649590737690326e-06
+56	Taurine	Glutamine	1.2719110072305476e-05
+57	Glutamine	Taurine	1.2719110072305476e-05
+58	Proline	Lysine	1.7778311385085144e-05
+59	Lysine	Proline	1.7778311385085144e-05
+60	Glycine	Alanine	3.400988338626879e-05
+61	Alanine	Glycine	3.400988338626879e-05
+62	Glycine	Lysine	5.3665065385705756e-05
+63	Lysine	Glycine	5.3665065385705756e-05
+64	Gamma-Aminobutyric Acid	Tryptophan	0.00012495716039868422
+65	Tryptophan	Gamma-Aminobutyric Acid	0.00012495716039868422
+66	Taurine	Gamma-Aminobutyric Acid	0.00033346916225585006
+67	Gamma-Aminobutyric Acid	Taurine	0.00033346916225585006
+68	Glutamine	Tryptophan	0.0003612998495339554
+69	Tryptophan	Glutamine	0.0003612998495339554
+70	Serine	Proline	0.0006139359130081252
+71	Proline	Serine	0.0006139359130081252
+72	Serine	Lysine	0.0006612438321323365
+73	Lysine	Serine	0.0006612438321323365
+74	Alanine	Proline	0.0007646032637277577
+75	Proline	Alanine	0.0007646032637277577
+76	Alanine	Methionine	0.0008222408486589077
+77	Methionine	Alanine	0.0008222408486589077
+78	Glycine	Methionine	0.0008476549669479475
+79	Methionine	Glycine	0.0008476549669479475
+80	l-Isoleucine	Phenylalanine	0.0008986952140663081
+81	Phenylalanine	l-Isoleucine	0.0008986952140663081
+82	Leucine	Tyrosine	0.0010096670115795176
+83	Tryptophan	Glutamic Acid	0.0010096670115795176
+84	Glutamic Acid	Tryptophan	0.0010096670115795176
+85	Tyrosine	Leucine	0.0010096670115795176
+86	Alanine	L-ornithine	0.00150517430820898
+87	L-ornithine	Alanine	0.00150517430820898
+88	Histidine	Serine	0.0015928325876499757
+89	Serine	Histidine	0.0015928325876499757
+90	Gamma-Aminobutyric Acid	Proline	0.0022423779805395977
+91	Proline	Gamma-Aminobutyric Acid	0.0022423779805395977
+92	Phenylalanine	Tyrosine	0.0022764031938244797
+93	Tyrosine	Phenylalanine	0.0022764031938244797
+94	Lysine	Tyrosine	0.0023685895866537767
+95	Tyrosine	Lysine	0.0023685895866537767
+96	Taurine	Lysine	0.0030178763920709886
+97	Lysine	Taurine	0.0030178763920709886
+98	Glycine	Leucine	0.0039139108987873966
+99	Valine	Tyrosine	0.0039139108987873966
+100	Leucine	Glycine	0.0039139108987873966
+101	Tyrosine	Valine	0.0039139108987873966
+102	Taurine	Glutamic Acid	0.004441613805275419
+103	Glutamic Acid	Taurine	0.004441613805275419
+104	L-ornithine	Lysine	0.004675204685024254
+105	Lysine	L-ornithine	0.004675204685024254
+106	Taurine	Serine	0.0056153164747132596
+107	Serine	Taurine	0.0056153164747132596
+108	Serine	Alanine	0.0056153164747132596
+109	Serine	Tryptophan	0.0056153164747132596
+110	Glycine	Proline	0.0056153164747132596
+111	Alanine	Serine	0.0056153164747132596
+112	Proline	Glycine	0.0056153164747132596
+113	Tryptophan	Serine	0.0056153164747132596
+114	L-ornithine	Tyrosine	0.006322377072021688
+115	Tyrosine	L-ornithine	0.006322377072021688
+116	Serine	Threonine	0.007732406426515245
+117	Threonine	Serine	0.007732406426515245
+118	Glycine	Threonine	0.007758787977861956
+119	Threonine	Glycine	0.007758787977861956
+120	l-Isoleucine	Tyrosine	0.008273272242959288
+121	Tyrosine	l-Isoleucine	0.008273272242959288
+122	Lysine	Methionine	0.009356473878806969
+123	Methionine	Lysine	0.009356473878806969
+124	Histidine	Arginine	0.00956394141552921
+125	Arginine	Histidine	0.00956394141552921
+126	Aspartic Acid	Proline	0.0096895730773995
+127	Threonine	Gamma-Aminobutyric Acid	0.0096895730773995
+128	Gamma-Aminobutyric Acid	Threonine	0.0096895730773995
+129	Proline	Aspartic Acid	0.0096895730773995
+130	L-ornithine	Methionine	0.0096895730773995
+131	Methionine	L-ornithine	0.0096895730773995
+132	Lysine	Leucine	0.012354508506774338
+133	Leucine	Lysine	0.012354508506774338
+134	Alanine	Leucine	0.013412220014662902
+135	Gamma-Aminobutyric Acid	Lysine	0.013412220014662902
+136	Lysine	Gamma-Aminobutyric Acid	0.013412220014662902
+137	Leucine	Alanine	0.013412220014662902
+138	Taurine	Threonine	0.014098399516176509
+139	Threonine	Taurine	0.014098399516176509
+140	Histidine	Phenylalanine	0.0167137278476664
+141	Taurine	Alanine	0.0167137278476664
+142	Alanine	Taurine	0.0167137278476664
+143	Phenylalanine	Histidine	0.0167137278476664
+144	Arginine	Glutamic Acid	0.016834780469545133
+145	Glutamic Acid	Arginine	0.016834780469545133
+146	Arginine	Tyrosine	0.016977387443826337
+147	Tyrosine	Arginine	0.016977387443826337
+148	Alanine	Tyrosine	0.020136001734574516
+149	Tyrosine	Alanine	0.020136001734574516
+150	Gamma-Aminobutyric Acid	Glutamic Acid	0.02073922453446802
+151	Glutamic Acid	Gamma-Aminobutyric Acid	0.02073922453446802
+152	Serine	Glycine	0.021358343725332414
+153	Glycine	Serine	0.021358343725332414
+154	Phenylalanine	Tryptophan	0.02180885542681953
+155	Tryptophan	Phenylalanine	0.02180885542681953
+156	Glycine	Valine	0.022456397237304554
+157	Valine	Glycine	0.022456397237304554
+158	Glutamine	Gamma-Aminobutyric Acid	0.025743299788212413
+159	Gamma-Aminobutyric Acid	Glutamine	0.025743299788212413
+160	Glycine	Aspartic Acid	0.03185161560540115
+161	Aspartic Acid	Glycine	0.03185161560540115
+162	Arginine	Phenylalanine	0.032075530831615545
+163	Lysine	l-Isoleucine	0.032075530831615545
+164	l-Isoleucine	Lysine	0.032075530831615545
+165	Phenylalanine	Arginine	0.032075530831615545
+166	Alanine	Gamma-Aminobutyric Acid	0.03321704940881942
+167	Gamma-Aminobutyric Acid	Alanine	0.03321704940881942
+168	Arginine	Gamma-Aminobutyric Acid	0.039741988851968
+169	Gamma-Aminobutyric Acid	Arginine	0.039741988851968
+170	Gamma-Aminobutyric Acid	Phenylalanine	0.04700296802439061
+171	Phenylalanine	Gamma-Aminobutyric Acid	0.04700296802439061
+172	Threonine	Tryptophan	0.0474912074640588
+173	Tryptophan	Threonine	0.0474912074640588

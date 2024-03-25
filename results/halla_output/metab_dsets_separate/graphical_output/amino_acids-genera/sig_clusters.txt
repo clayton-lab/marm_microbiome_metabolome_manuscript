@@ -1,0 +1,10 @@
+cluster_rank	cluster_X	cluster_Y	best_adjusted_pvalue
+1	Glutamine;Glutamic Acid;Taurine;Histidine;Tryptophan	Clostridiaceae_Clostridium_sensu_stricto_1	3.353514420506766e-05
+2	Serine;Gamma-Aminobutyric Acid	Clostridiaceae_Clostridium_sensu_stricto_1	0.0007382713434351132
+3	Taurine	Hafniaceae_Hafnia-Obesumbacterium	0.001668754688214847
+4	Valine;Leucine	Fusobacteriaceae_Fusobacterium	0.001668754688214847
+5	Phenylalanine	Fusobacteriaceae_Fusobacterium	0.0031803711359534993
+6	Serine;Gamma-Aminobutyric Acid	Rikenellaceae_Alistipes	0.0036282337133914135
+7	Lysine	Lachnospiraceae_[Ruminococcus]_gnavus_group	0.012251939595921366
+8	Tryptophan	Streptococcaceae_Streptococcus	0.017486660715905405
+9	Arginine	Fusobacteriaceae_Fusobacterium	0.02013216118891865

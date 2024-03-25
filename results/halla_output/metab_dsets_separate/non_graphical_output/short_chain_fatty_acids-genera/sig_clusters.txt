@@ -1,0 +1,6 @@
+cluster_rank	cluster_X	cluster_Y	best_adjusted_pvalue
+1	QTBSBXVTEAMEQO-UHFFFAOYSA-N	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus	0.02805940955733463
+2	FERIUCNNQQJTOY-UHFFFAOYSA-N	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus	0.02805940955733463
+3	XBDQKXXYIPTUBI-UHFFFAOYSA-N	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Hafniaceae;g__Hafnia-Obesumbacterium	0.02805940955733463
+4	GWYFCOCPABKNJV-UHFFFAOYSA-N	d__Bacteria;p__Firmicutes;c__Clostridia;o__Oscillospirales;f__Oscillospiraceae;g__Colidextribacter	0.02805940955733463
+5	GWYFCOCPABKNJV-UHFFFAOYSA-N	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides	0.036385757085233186
