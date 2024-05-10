@@ -568,6 +568,7 @@ dependencies:
   - r-plyr=1.8.8
   - r-png=0.1_8
   - r-polynom=1.4_1
+  - r-powerlaw=0.80.0
   - r-pracma=2.4.2
   - r-praise=1.0.0
   - r-prettyunits=1.1.1
