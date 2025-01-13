@@ -1,0 +1,590 @@
+cluster_rank	cluster_X	cluster_Y	best_adjusted_pvalue
+1	Acetic Acid	Acetic Acid	0.0
+2	Propionic Acid	Propionic Acid	0.0
+3	Butyric Acid	Butyric Acid	0.0
+4	Isovaleric acid	Isovaleric acid	0.0
+5	alpha-Muricholic acid	alpha-Muricholic acid	0.0
+6	Cholic Acid	Cholic Acid	0.0
+7	Hyocholic Acid	Hyocholic Acid	0.0
+8	Lithocholic Acid	Lithocholic Acid	0.0
+9	Chenodeoxycholic acid	Chenodeoxycholic acid	0.0
+10	Deoxycholic Acid	Deoxycholic Acid	0.0
+11	Glycocholic acid	Glycocholic acid	0.0
+12	Glycodeoxycholic Acid	Glycodeoxycholic Acid	0.0
+13	Glycolithocholic acid	Glycolithocholic acid	0.0
+14	Taurocholic acid	Taurocholic acid	0.0
+15	Taurochenodeoxycholic acid	Taurochenodeoxycholic acid	0.0
+16	Taurolithocholic acid	Taurolithocholic acid	0.0
+17	Taurodeoxycholic acid	Taurodeoxycholic acid	0.0
+18	Histidine	Histidine	0.0
+19	Taurine	Taurine	0.0
+20	Serine	Serine	0.0
+21	Glutamine	Glutamine	0.0
+22	Glycine	Glycine	0.0
+23	Aspartic Acid	Aspartic Acid	0.0
+24	Threonine	Threonine	0.0
+25	Alanine	Alanine	0.0
+26	Gamma-Aminobutyric Acid	Gamma-Aminobutyric Acid	0.0
+27	Proline	Proline	0.0
+28	L-ornithine	L-ornithine	0.0
+29	Lysine	Lysine	0.0
+30	Methionine	Methionine	0.0
+31	Valine	Valine	0.0
+32	l-Isoleucine	l-Isoleucine	0.0
+33	Leucine	Leucine	0.0
+34	Phenylalanine	Phenylalanine	0.0
+35	Tryptophan	Tryptophan	0.0
+36	Glutamic Acid	Glutamic Acid	0.0
+37	Tyrosine	Tyrosine	0.0
+38	Glycochenodeoxycholic Acid	Glycochenodeoxycholic Acid	8.866698277642328e-282
+39	Arginine	Arginine	8.866698277642328e-282
+40	Taurochenodeoxycholic acid	Taurodeoxycholic acid	4.863230179689218e-20
+41	Taurodeoxycholic acid	Taurochenodeoxycholic acid	4.863230179689218e-20
+42	l-Isoleucine	Leucine	2.77390072289993e-18
+43	Leucine	l-Isoleucine	2.77390072289993e-18
+44	Taurocholic acid	Taurodeoxycholic acid	4.972241569339638e-14
+45	Taurodeoxycholic acid	Taurocholic acid	4.972241569339638e-14
+46	Valine	Leucine	5.655331552217131e-14
+47	Leucine	Valine	5.655331552217131e-14
+48	Valine	l-Isoleucine	4.5867815839129e-12
+49	l-Isoleucine	Valine	4.5867815839129e-12
+50	Valine	Phenylalanine	5.709170459893861e-12
+51	Phenylalanine	Valine	5.709170459893861e-12
+52	Cholic Acid	Chenodeoxycholic acid	8.829098778272289e-12
+53	Chenodeoxycholic acid	Cholic Acid	8.829098778272289e-12
+54	Taurocholic acid	Taurochenodeoxycholic acid	4.7136062802913524e-11
+55	Taurochenodeoxycholic acid	Taurocholic acid	4.7136062802913524e-11
+56	Leucine	Phenylalanine	9.260983249835025e-11
+57	Phenylalanine	Leucine	9.260983249835025e-11
+58	Taurolithocholic acid	Taurodeoxycholic acid	1.0776635537605744e-10
+59	Taurodeoxycholic acid	Taurolithocholic acid	1.0776635537605744e-10
+60	alpha-Muricholic acid	Glycocholic acid	1.3901702902271729e-10
+61	Glycocholic acid	alpha-Muricholic acid	1.3901702902271729e-10
+62	Cholic Acid	Taurocholic acid	3.021588252413272e-10
+63	Taurocholic acid	Cholic Acid	3.021588252413272e-10
+64	alpha-Muricholic acid	Chenodeoxycholic acid	1.3126201472962262e-09
+65	Chenodeoxycholic acid	alpha-Muricholic acid	1.3126201472962262e-09
+66	Taurochenodeoxycholic acid	Taurolithocholic acid	1.6247085955752137e-09
+67	Taurolithocholic acid	Taurochenodeoxycholic acid	1.6247085955752137e-09
+68	Glycocholic acid	Taurodeoxycholic acid	3.7063870864727204e-09
+69	Taurodeoxycholic acid	Glycocholic acid	3.7063870864727204e-09
+70	Histidine	Glutamic Acid	8.571439418412512e-09
+71	Glutamic Acid	Histidine	8.571439418412512e-09
+72	Cholic Acid	Glycocholic acid	1.2747949044966654e-08
+73	Glycocholic acid	Cholic Acid	1.2747949044966654e-08
+74	l-Isoleucine	Phenylalanine	2.3800738192542383e-08
+75	Phenylalanine	l-Isoleucine	2.3800738192542383e-08
+76	Chenodeoxycholic acid	Glycocholic acid	3.038370121050595e-08
+77	Glycocholic acid	Chenodeoxycholic acid	3.038370121050595e-08
+78	Cholic Acid	Taurodeoxycholic acid	3.862201088463973e-08
+79	Taurodeoxycholic acid	Cholic Acid	3.862201088463973e-08
+80	Alanine	Lysine	4.3314332270931224e-08
+81	Lysine	Alanine	4.3314332270931224e-08
+82	Glycochenodeoxycholic Acid	Taurodeoxycholic acid	5.025167749462553e-08
+83	Taurodeoxycholic acid	Glycochenodeoxycholic Acid	5.025167749462553e-08
+84	alpha-Muricholic acid	Cholic Acid	6.121714743473159e-08
+85	Cholic Acid	alpha-Muricholic acid	6.121714743473159e-08
+86	Histidine	Tryptophan	7.818710632113148e-08
+87	Tryptophan	Histidine	7.818710632113148e-08
+88	alpha-Muricholic acid	Hyocholic Acid	9.9421592935032e-08
+89	Hyocholic Acid	alpha-Muricholic acid	9.9421592935032e-08
+90	Glycocholic acid	Taurocholic acid	1.5473740896543573e-07
+91	Taurocholic acid	Glycocholic acid	1.5473740896543573e-07
+92	Serine	Lysine	1.7709847099965714e-07
+93	Lysine	Serine	1.7709847099965714e-07
+94	Glycine	Alanine	1.8449613004229459e-07
+95	Alanine	Glycine	1.8449613004229459e-07
+96	Cholic Acid	Taurolithocholic acid	2.4935642163069797e-07
+97	Taurolithocholic acid	Cholic Acid	2.4935642163069797e-07
+98	Glycochenodeoxycholic Acid	Taurochenodeoxycholic acid	3.042450186920785e-07
+99	Taurochenodeoxycholic acid	Glycochenodeoxycholic Acid	3.042450186920785e-07
+100	alpha-Muricholic acid	Deoxycholic Acid	3.1379627874013343e-07
+101	Deoxycholic Acid	alpha-Muricholic acid	3.1379627874013343e-07
+102	Cholic Acid	Histidine	3.3632151280928563e-07
+103	Histidine	Cholic Acid	3.3632151280928563e-07
+104	alpha-Muricholic acid	Taurodeoxycholic acid	3.6467590275174435e-07
+105	Glycocholic acid	Glycochenodeoxycholic Acid	3.6467590275174435e-07
+106	Glycochenodeoxycholic Acid	Glycocholic acid	3.6467590275174435e-07
+107	Taurodeoxycholic acid	alpha-Muricholic acid	3.6467590275174435e-07
+108	Glycochenodeoxycholic Acid	Taurolithocholic acid	4.888391553649008e-07
+109	Taurolithocholic acid	Glycochenodeoxycholic Acid	4.888391553649008e-07
+110	Taurolithocholic acid	Histidine	5.259129706455018e-07
+111	Histidine	Taurolithocholic acid	5.259129706455018e-07
+112	Chenodeoxycholic acid	Taurolithocholic acid	5.545820707531826e-07
+113	Taurolithocholic acid	Chenodeoxycholic acid	5.545820707531826e-07
+114	Taurolithocholic acid	Taurine	6.083569880510481e-07
+115	Taurine	Taurolithocholic acid	6.083569880510481e-07
+116	Taurodeoxycholic acid	Histidine	6.990142533897064e-07
+117	Histidine	Taurodeoxycholic acid	6.990142533897064e-07
+118	Threonine	Alanine	7.065868938970754e-07
+119	Alanine	Threonine	7.065868938970754e-07
+120	Glycochenodeoxycholic Acid	Taurine	8.246690746293146e-07
+121	Taurine	Glycochenodeoxycholic Acid	8.246690746293146e-07
+122	Cholic Acid	Taurochenodeoxycholic acid	8.871159812855343e-07
+123	Taurochenodeoxycholic acid	Cholic Acid	8.871159812855343e-07
+124	Chenodeoxycholic acid	Histidine	1.054360437923299e-06
+125	Histidine	Chenodeoxycholic acid	1.054360437923299e-06
+126	Glycochenodeoxycholic Acid	Tryptophan	1.2692662837939378e-06
+127	Tryptophan	Glycochenodeoxycholic Acid	1.2692662837939378e-06
+128	Taurine	Tryptophan	1.4850282654049282e-06
+129	Tryptophan	Taurine	1.4850282654049282e-06
+130	Chenodeoxycholic acid	Taurodeoxycholic acid	1.6794867391010083e-06
+131	Taurodeoxycholic acid	Chenodeoxycholic acid	1.6794867391010083e-06
+132	alpha-Muricholic acid	Taurolithocholic acid	1.9539472718454436e-06
+133	Taurolithocholic acid	alpha-Muricholic acid	1.9539472718454436e-06
+134	Taurochenodeoxycholic acid	Histidine	1.9745853969612203e-06
+135	Histidine	Taurochenodeoxycholic acid	1.9745853969612203e-06
+136	Glycocholic acid	Taurolithocholic acid	2.1530698432218114e-06
+137	Taurolithocholic acid	Glycocholic acid	2.1530698432218114e-06
+138	alpha-Muricholic acid	Glycochenodeoxycholic Acid	2.181012871639608e-06
+139	Glycochenodeoxycholic Acid	alpha-Muricholic acid	2.181012871639608e-06
+140	Deoxycholic Acid	Glycodeoxycholic Acid	2.2807407720484233e-06
+141	Glycodeoxycholic Acid	Deoxycholic Acid	2.2807407720484233e-06
+142	Glutamine	Glutamic Acid	2.2807407720484233e-06
+143	Glutamic Acid	Glutamine	2.2807407720484233e-06
+144	Proline	Lysine	2.3941213662969196e-06
+145	Lysine	Proline	2.3941213662969196e-06
+146	Glycine	Lysine	2.5758721838661765e-06
+147	Lysine	Glycine	2.5758721838661765e-06
+148	Glycocholic acid	Taurochenodeoxycholic acid	2.6372293267682985e-06
+149	Taurochenodeoxycholic acid	Glycocholic acid	2.6372293267682985e-06
+150	Taurochenodeoxycholic acid	Tryptophan	2.667228712366359e-06
+151	Tryptophan	Taurochenodeoxycholic acid	2.667228712366359e-06
+152	Chenodeoxycholic acid	Taurochenodeoxycholic acid	2.7990796503359533e-06
+153	Taurochenodeoxycholic acid	Chenodeoxycholic acid	2.7990796503359533e-06
+154	Propionic Acid	Butyric Acid	2.86626650250127e-06
+155	Butyric Acid	Propionic Acid	2.86626650250127e-06
+156	Taurocholic acid	Taurolithocholic acid	2.9712168956844695e-06
+157	Taurolithocholic acid	Taurocholic acid	2.9712168956844695e-06
+158	alpha-Muricholic acid	Taurocholic acid	3.1939024158550014e-06
+159	Taurocholic acid	alpha-Muricholic acid	3.1939024158550014e-06
+160	Hyocholic Acid	Deoxycholic Acid	4.202897036723621e-06
+161	Deoxycholic Acid	Hyocholic Acid	4.202897036723621e-06
+162	Taurodeoxycholic acid	Taurine	4.368579795380196e-06
+163	Taurine	Taurodeoxycholic acid	4.368579795380196e-06
+164	Chenodeoxycholic acid	Glycochenodeoxycholic Acid	4.7904565130272264e-06
+165	Glycochenodeoxycholic Acid	Chenodeoxycholic acid	4.7904565130272264e-06
+166	Cholic Acid	Gamma-Aminobutyric Acid	5.303543218553039e-06
+167	Gamma-Aminobutyric Acid	Cholic Acid	5.303543218553039e-06
+168	Taurodeoxycholic acid	Tryptophan	6.593101392640175e-06
+169	Tryptophan	Taurodeoxycholic acid	6.593101392640175e-06
+170	Chenodeoxycholic acid	Taurocholic acid	6.6657863443048304e-06
+171	Taurocholic acid	Chenodeoxycholic acid	6.6657863443048304e-06
+172	Histidine	Taurine	8.00889807863425e-06
+173	Taurine	Histidine	8.00889807863425e-06
+174	alpha-Muricholic acid	Taurine	8.278839614788437e-06
+175	Taurine	alpha-Muricholic acid	8.278839614788437e-06
+176	Threonine	Proline	9.316060661386933e-06
+177	Proline	Threonine	9.316060661386933e-06
+178	Glycochenodeoxycholic Acid	Histidine	9.706891888970948e-06
+179	Histidine	Glycochenodeoxycholic Acid	9.706891888970948e-06
+180	Taurolithocholic acid	Gamma-Aminobutyric Acid	1.0391771731669579e-05
+181	Gamma-Aminobutyric Acid	Taurolithocholic acid	1.0391771731669579e-05
+182	Glycocholic acid	Taurine	1.2135591102058273e-05
+183	Taurine	Glycocholic acid	1.2135591102058273e-05
+184	Glycocholic acid	Tryptophan	1.2758541334388211e-05
+185	Tryptophan	Glycocholic acid	1.2758541334388211e-05
+186	alpha-Muricholic acid	Histidine	1.3315113397192686e-05
+187	Histidine	alpha-Muricholic acid	1.3315113397192686e-05
+188	Threonine	Lysine	1.434362941345107e-05
+189	Lysine	Threonine	1.434362941345107e-05
+190	Taurolithocholic acid	Tryptophan	1.697212814479719e-05
+191	Tryptophan	Taurolithocholic acid	1.697212814479719e-05
+192	Chenodeoxycholic acid	Gamma-Aminobutyric Acid	1.6972464668073204e-05
+193	Gamma-Aminobutyric Acid	Chenodeoxycholic acid	1.6972464668073204e-05
+194	Histidine	Gamma-Aminobutyric Acid	1.715225192453599e-05
+195	Gamma-Aminobutyric Acid	Histidine	1.715225192453599e-05
+196	Serine	Alanine	1.8639770598558707e-05
+197	Alanine	Serine	1.8639770598558707e-05
+198	Deoxycholic Acid	Glycocholic acid	2.0452640867379906e-05
+199	Glycocholic acid	Deoxycholic Acid	2.0452640867379906e-05
+200	Glycochenodeoxycholic Acid	Taurocholic acid	2.0945040898847755e-05
+201	Taurocholic acid	Glycochenodeoxycholic Acid	2.0945040898847755e-05
+202	Histidine	Glutamine	2.1317851944562883e-05
+203	Glutamine	Histidine	2.1317851944562883e-05
+204	Taurocholic acid	Histidine	2.7167070989078977e-05
+205	Histidine	Taurocholic acid	2.7167070989078977e-05
+206	alpha-Muricholic acid	Taurochenodeoxycholic acid	2.913436852063293e-05
+207	Taurochenodeoxycholic acid	alpha-Muricholic acid	2.913436852063293e-05
+208	L-ornithine	Lysine	3.195616504678962e-05
+209	Lysine	L-ornithine	3.195616504678962e-05
+210	Glycocholic acid	Histidine	4.7810879351828026e-05
+211	Histidine	Glycocholic acid	4.7810879351828026e-05
+212	Taurine	Glutamine	4.958362840161275e-05
+213	Glutamine	Taurine	4.958362840161275e-05
+214	Cholic Acid	Serine	5.2065395582104085e-05
+215	Serine	Cholic Acid	5.2065395582104085e-05
+216	Hyocholic Acid	Glycodeoxycholic Acid	6.218057089344895e-05
+217	Glycodeoxycholic Acid	Hyocholic Acid	6.218057089344895e-05
+218	Glycochenodeoxycholic Acid	Glutamic Acid	7.098470931534249e-05
+219	Glutamic Acid	Glycochenodeoxycholic Acid	7.098470931534249e-05
+220	Chenodeoxycholic acid	Tryptophan	8.4826709817193e-05
+221	Taurocholic acid	Serine	8.4826709817193e-05
+222	Serine	Taurocholic acid	8.4826709817193e-05
+223	Tryptophan	Chenodeoxycholic acid	8.4826709817193e-05
+224	Alanine	Proline	8.793381591371456e-05
+225	Proline	Alanine	8.793381591371456e-05
+226	Cholic Acid	Glycochenodeoxycholic Acid	9.105882832136357e-05
+227	Glycochenodeoxycholic Acid	Cholic Acid	9.105882832136357e-05
+228	Taurine	Glutamic Acid	9.199611258978921e-05
+229	Serine	Proline	9.199611258978921e-05
+230	Proline	Serine	9.199611258978921e-05
+231	Glutamic Acid	Taurine	9.199611258978921e-05
+232	alpha-Muricholic acid	Tryptophan	0.00010694676404917334
+233	Tryptophan	alpha-Muricholic acid	0.00010694676404917334
+234	Glutamine	Tryptophan	0.00011176065555343146
+235	Tryptophan	Glutamine	0.00011176065555343146
+236	Tryptophan	Glutamic Acid	0.00012516292253107825
+237	Glutamic Acid	Tryptophan	0.00012516292253107825
+238	alpha-Muricholic acid	Glycodeoxycholic Acid	0.00013999946624933558
+239	Glycodeoxycholic Acid	alpha-Muricholic acid	0.00013999946624933558
+240	L-ornithine	Tyrosine	0.00015953496799590386
+241	Tyrosine	L-ornithine	0.00015953496799590386
+242	Taurocholic acid	Taurine	0.00016434348438810892
+243	Taurine	Taurocholic acid	0.00016434348438810892
+244	Cholic Acid	Taurine	0.00018869981030251299
+245	Taurine	Cholic Acid	0.00018869981030251299
+246	Glycocholic acid	Gamma-Aminobutyric Acid	0.000192936665245059
+247	Gamma-Aminobutyric Acid	Glycocholic acid	0.000192936665245059
+248	Glycocholic acid	Glycodeoxycholic Acid	0.0002130442124694776
+249	Glycodeoxycholic Acid	Glycocholic acid	0.0002130442124694776
+250	Serine	Glycine	0.00022380865394533724
+251	Glycine	Serine	0.00022380865394533724
+252	Taurochenodeoxycholic acid	Glutamine	0.00022939796438014914
+253	Glutamine	Taurochenodeoxycholic acid	0.00022939796438014914
+254	Taurocholic acid	Lysine	0.00024090579858447876
+255	Lysine	Taurocholic acid	0.00024090579858447876
+256	Glycine	Proline	0.00025703569073414525
+257	Proline	Glycine	0.00025703569073414525
+258	Taurodeoxycholic acid	Gamma-Aminobutyric Acid	0.0002676305816380777
+259	Gamma-Aminobutyric Acid	Taurodeoxycholic acid	0.0002676305816380777
+260	Cholic Acid	Deoxycholic Acid	0.0002786191340955459
+261	Deoxycholic Acid	Cholic Acid	0.0002786191340955459
+262	Taurodeoxycholic acid	Glutamine	0.00027871222659627746
+263	Glutamine	Taurodeoxycholic acid	0.00027871222659627746
+264	Taurochenodeoxycholic acid	Taurine	0.0002920741736645409
+265	Taurine	Taurochenodeoxycholic acid	0.0002920741736645409
+266	alpha-Muricholic acid	Gamma-Aminobutyric Acid	0.0003165559676461288
+267	Gamma-Aminobutyric Acid	alpha-Muricholic acid	0.0003165559676461288
+268	Butyric Acid	Histidine	0.000331926014348772
+269	Histidine	Butyric Acid	0.000331926014348772
+270	Taurolithocholic acid	Glutamic Acid	0.0003702384875703158
+271	Glutamic Acid	Taurolithocholic acid	0.0003702384875703158
+272	Serine	Threonine	0.00038494241682740136
+273	Threonine	Serine	0.00038494241682740136
+274	Taurocholic acid	Tryptophan	0.0004001707491533053
+275	Tryptophan	Taurocholic acid	0.0004001707491533053
+276	Taurochenodeoxycholic acid	Gamma-Aminobutyric Acid	0.0005062984185841046
+277	Gamma-Aminobutyric Acid	Taurochenodeoxycholic acid	0.0005062984185841046
+278	Glycine	Threonine	0.0005064468149873065
+279	Threonine	Glycine	0.0005064468149873065
+280	alpha-Muricholic acid	Glutamic Acid	0.0005877316214138854
+281	Glutamic Acid	alpha-Muricholic acid	0.0005877316214138854
+282	Taurodeoxycholic acid	Glutamic Acid	0.0006054511257867115
+283	Glutamic Acid	Taurodeoxycholic acid	0.0006054511257867115
+284	Butyric Acid	Chenodeoxycholic acid	0.0006950609183469836
+285	Chenodeoxycholic acid	Butyric Acid	0.0006950609183469836
+286	Chenodeoxycholic acid	Taurine	0.0006950609183469836
+287	Taurine	Chenodeoxycholic acid	0.0006950609183469836
+288	Cholic Acid	Tryptophan	0.0007215723838283439
+289	Tryptophan	Cholic Acid	0.0007215723838283439
+290	Aspartic Acid	Proline	0.0008937930163744623
+291	Proline	Aspartic Acid	0.0008937930163744623
+292	Taurocholic acid	Gamma-Aminobutyric Acid	0.00090664414600176
+293	Gamma-Aminobutyric Acid	Taurocholic acid	0.00090664414600176
+294	Chenodeoxycholic acid	Deoxycholic Acid	0.000919681856775566
+295	Deoxycholic Acid	Chenodeoxycholic acid	0.000919681856775566
+296	Hyocholic Acid	Glycocholic acid	0.0010428918586445576
+297	Glycocholic acid	Hyocholic Acid	0.0010428918586445576
+298	Alanine	Methionine	0.0010431134466145414
+299	Methionine	Alanine	0.0010431134466145414
+300	Butyric Acid	Taurodeoxycholic acid	0.001057900008719339
+301	Taurodeoxycholic acid	Butyric Acid	0.001057900008719339
+302	Butyric Acid	Taurochenodeoxycholic acid	0.0010655248178847352
+303	Taurochenodeoxycholic acid	Butyric Acid	0.0010655248178847352
+304	Taurochenodeoxycholic acid	Serine	0.001073605490352846
+305	Serine	Taurochenodeoxycholic acid	0.001073605490352846
+306	Glycine	Methionine	0.001073605490352846
+307	Methionine	Glycine	0.001073605490352846
+308	Taurine	Gamma-Aminobutyric Acid	0.0011768813798016145
+309	Gamma-Aminobutyric Acid	Taurine	0.0011768813798016145
+310	Glycochenodeoxycholic Acid	Gamma-Aminobutyric Acid	0.0012922190651893295
+311	Gamma-Aminobutyric Acid	Glycochenodeoxycholic Acid	0.0012922190651893295
+312	Cholic Acid	Lysine	0.001335957513247167
+313	Lysine	Cholic Acid	0.001335957513247167
+314	Methionine	Leucine	0.0014480358520603726
+315	Leucine	Methionine	0.0014480358520603726
+316	Glycochenodeoxycholic Acid	Glutamine	0.0014880221030817951
+317	Taurodeoxycholic acid	Serine	0.0014880221030817951
+318	Serine	Taurodeoxycholic acid	0.0014880221030817951
+319	Glutamine	Glycochenodeoxycholic Acid	0.0014880221030817951
+320	Alanine	Leucine	0.0014885831396123617
+321	Leucine	Alanine	0.0014885831396123617
+322	Taurochenodeoxycholic acid	Glutamic Acid	0.0015398757640748817
+323	Alanine	L-ornithine	0.0015398757640748817
+324	L-ornithine	Alanine	0.0015398757640748817
+325	Glutamic Acid	Taurochenodeoxycholic acid	0.0015398757640748817
+326	Propionic Acid	Taurodeoxycholic acid	0.0015712972489762408
+327	Taurodeoxycholic acid	Propionic Acid	0.0015712972489762408
+328	Taurolithocholic acid	Glutamine	0.0015824023762096952
+329	Glutamine	Taurolithocholic acid	0.0015824023762096952
+330	Glycine	Aspartic Acid	0.0016682767892829344
+331	Aspartic Acid	Glycine	0.0016682767892829344
+332	Lithocholic Acid	Serine	0.0017355649199677335
+333	Serine	Lithocholic Acid	0.0017355649199677335
+334	Hyocholic Acid	Chenodeoxycholic acid	0.0018885758986452211
+335	Chenodeoxycholic acid	Hyocholic Acid	0.0018885758986452211
+336	Chenodeoxycholic acid	Serine	0.002092958584539186
+337	Serine	Chenodeoxycholic acid	0.002092958584539186
+338	Glycine	Leucine	0.00245102084590102
+339	Leucine	Glycine	0.00245102084590102
+340	Propionic Acid	Histidine	0.0024982065528911307
+341	Histidine	Propionic Acid	0.0024982065528911307
+342	Chenodeoxycholic acid	Glutamic Acid	0.0024991540093069393
+343	Glutamic Acid	Chenodeoxycholic acid	0.0024991540093069393
+344	Acetic Acid	Butyric Acid	0.0027773839290310747
+345	Butyric Acid	Acetic Acid	0.0027773839290310747
+346	Aspartic Acid	Alanine	0.0030825431767065614
+347	Alanine	Aspartic Acid	0.0030825431767065614
+348	Phenylalanine	Tyrosine	0.0031977160001383097
+349	Tyrosine	Phenylalanine	0.0031977160001383097
+350	Aspartic Acid	Threonine	0.003459016296687079
+351	Threonine	Aspartic Acid	0.003459016296687079
+352	Propionic Acid	Glycocholic acid	0.0034600771001268194
+353	Glycocholic acid	Propionic Acid	0.0034600771001268194
+354	Glycocholic acid	Serine	0.0035874736022222732
+355	Serine	Glycocholic acid	0.0035874736022222732
+356	Leucine	Tyrosine	0.0038762149080594937
+357	Tyrosine	Leucine	0.0038762149080594937
+358	Deoxycholic Acid	Taurocholic acid	0.0040882019188117
+359	Taurocholic acid	Deoxycholic Acid	0.0040882019188117
+360	Gamma-Aminobutyric Acid	Tryptophan	0.0041134792102474355
+361	Tryptophan	Gamma-Aminobutyric Acid	0.0041134792102474355
+362	Methionine	Phenylalanine	0.004114832876762925
+363	Phenylalanine	Methionine	0.004114832876762925
+364	Taurolithocholic acid	Serine	0.004338066499195161
+365	Serine	Taurolithocholic acid	0.004338066499195161
+366	Taurocholic acid	Glutamine	0.004390250049382099
+367	Glutamine	Taurocholic acid	0.004390250049382099
+368	Acetic Acid	Serine	0.004472329387648652
+369	Cholic Acid	Alanine	0.004472329387648652
+370	Taurocholic acid	Alanine	0.004472329387648652
+371	Serine	Acetic Acid	0.004472329387648652
+372	Alanine	Cholic Acid	0.004472329387648652
+373	Alanine	Taurocholic acid	0.004472329387648652
+374	Aspartic Acid	Lysine	0.004500151021475694
+375	Lysine	Aspartic Acid	0.004500151021475694
+376	Methionine	Valine	0.004991556137132572
+377	Valine	Methionine	0.004991556137132572
+378	Propionic Acid	Taurochenodeoxycholic acid	0.005108480341499417
+379	Taurochenodeoxycholic acid	Propionic Acid	0.005108480341499417
+380	Butyric Acid	alpha-Muricholic acid	0.005257465726353476
+381	alpha-Muricholic acid	Butyric Acid	0.005257465726353476
+382	Taurodeoxycholic acid	Lysine	0.005379807060988974
+383	Lysine	Taurodeoxycholic acid	0.005379807060988974
+384	Serine	Methionine	0.005661240933647312
+385	Methionine	Serine	0.005661240933647312
+386	Deoxycholic Acid	Taurodeoxycholic acid	0.005824094348532422
+387	Taurodeoxycholic acid	Deoxycholic Acid	0.005824094348532422
+388	Acetic Acid	Cholic Acid	0.005859123297759168
+389	Cholic Acid	Acetic Acid	0.005859123297759168
+390	Taurocholic acid	Threonine	0.005993558780955348
+391	Threonine	Taurocholic acid	0.005993558780955348
+392	Propionic Acid	Glutamic Acid	0.006732061745489163
+393	Glutamic Acid	Propionic Acid	0.006732061745489163
+394	Acetic Acid	Propionic Acid	0.007754675395388996
+395	Propionic Acid	Acetic Acid	0.007754675395388996
+396	Propionic Acid	alpha-Muricholic acid	0.007762757417186166
+397	alpha-Muricholic acid	Propionic Acid	0.007762757417186166
+398	Cholic Acid	Proline	0.007762757417186166
+399	Proline	Cholic Acid	0.007762757417186166
+400	Lysine	Tyrosine	0.007762757417186166
+401	Tyrosine	Lysine	0.007762757417186166
+402	Glycocholic acid	Glutamic Acid	0.0077657876691019775
+403	Glutamic Acid	Glycocholic acid	0.0077657876691019775
+404	alpha-Muricholic acid	Glutamine	0.008239085965671729
+405	Glutamine	alpha-Muricholic acid	0.008239085965671729
+406	Butyric Acid	Taurolithocholic acid	0.008286269143592588
+407	Taurolithocholic acid	Butyric Acid	0.008286269143592588
+408	Deoxycholic Acid	Alanine	0.008333808034402944
+409	Alanine	Deoxycholic Acid	0.008333808034402944
+410	Glycochenodeoxycholic Acid	Glycodeoxycholic Acid	0.008376505687093808
+411	Glycodeoxycholic Acid	Glycochenodeoxycholic Acid	0.008376505687093808
+412	Arginine	Glutamic Acid	0.008376505687093808
+413	Glutamic Acid	Arginine	0.008376505687093808
+414	Cholic Acid	Glutamic Acid	0.008433847954310854
+415	Glutamic Acid	Cholic Acid	0.008433847954310854
+416	Taurochenodeoxycholic acid	Lysine	0.008755303043955085
+417	Lysine	Taurochenodeoxycholic acid	0.008755303043955085
+418	Butyric Acid	Glutamic Acid	0.008805654250757125
+419	Glutamic Acid	Butyric Acid	0.008805654250757125
+420	Glycocholic acid	Lysine	0.0089029722124368
+421	Lysine	Glycocholic acid	0.0089029722124368
+422	Gamma-Aminobutyric Acid	Glutamic Acid	0.0097835595248088
+423	Glutamic Acid	Gamma-Aminobutyric Acid	0.0097835595248088
+424	Butyric Acid	Cholic Acid	0.009788087489567613
+425	Cholic Acid	Butyric Acid	0.009788087489567613
+426	Propionic Acid	Tryptophan	0.010007260449611064
+427	Glycocholic acid	Alanine	0.010007260449611064
+428	Alanine	Glycocholic acid	0.010007260449611064
+429	l-Isoleucine	Tyrosine	0.010007260449611064
+430	Tryptophan	Propionic Acid	0.010007260449611064
+431	Tyrosine	l-Isoleucine	0.010007260449611064
+432	Propionic Acid	Phenylalanine	0.010012497467439332
+433	Phenylalanine	Propionic Acid	0.010012497467439332
+434	Taurocholic acid	Glutamic Acid	0.010017917415826158
+435	Glutamic Acid	Taurocholic acid	0.010017917415826158
+436	Propionic Acid	Taurine	0.010652884543816004
+437	Taurine	Propionic Acid	0.010652884543816004
+438	Serine	Aspartic Acid	0.010995786180308465
+439	Aspartic Acid	Serine	0.010995786180308465
+440	Lithocholic Acid	Glycolithocholic acid	0.011873999886563302
+441	Glycolithocholic acid	Lithocholic Acid	0.011873999886563302
+442	Serine	Gamma-Aminobutyric Acid	0.011873999886563302
+443	Gamma-Aminobutyric Acid	Serine	0.011873999886563302
+444	Lysine	Methionine	0.012242909700420985
+445	Methionine	Lysine	0.012242909700420985
+446	Deoxycholic Acid	Glycine	0.012249241557936597
+447	Glycine	Deoxycholic Acid	0.012249241557936597
+448	Histidine	Serine	0.01231715186808674
+449	Serine	Histidine	0.01231715186808674
+450	Valine	Tyrosine	0.01250959052284629
+451	Tyrosine	Valine	0.01250959052284629
+452	L-ornithine	Methionine	0.012760615535012901
+453	Methionine	L-ornithine	0.012760615535012901
+454	Arginine	Proline	0.012823941850827218
+455	Proline	Arginine	0.012823941850827218
+456	Glutamine	Arginine	0.013185197295979379
+457	Arginine	Glutamine	0.013185197295979379
+458	Cholic Acid	Threonine	0.013321282454148315
+459	Chenodeoxycholic acid	Glutamine	0.013321282454148315
+460	Glutamine	Chenodeoxycholic acid	0.013321282454148315
+461	Threonine	Cholic Acid	0.013321282454148315
+462	Methionine	l-Isoleucine	0.013321282454148315
+463	l-Isoleucine	Methionine	0.013321282454148315
+464	Glycine	Valine	0.013461133965084282
+465	Valine	Glycine	0.013461133965084282
+466	Alanine	l-Isoleucine	0.013535756749175447
+467	l-Isoleucine	Alanine	0.013535756749175447
+468	Cholic Acid	Glutamine	0.013677713246398401
+469	Glutamine	Cholic Acid	0.013677713246398401
+470	Butyric Acid	Serine	0.013956703125889626
+471	Serine	Butyric Acid	0.013956703125889626
+472	Propionic Acid	Glycochenodeoxycholic Acid	0.01416241275355921
+473	Glycochenodeoxycholic Acid	Propionic Acid	0.01416241275355921
+474	Lithocholic Acid	Lysine	0.014741973801420939
+475	Lysine	Lithocholic Acid	0.014741973801420939
+476	Deoxycholic Acid	Taurolithocholic acid	0.015856074640039346
+477	Taurolithocholic acid	Deoxycholic Acid	0.015856074640039346
+478	Glycocholic acid	Proline	0.015941803282651674
+479	Proline	Glycocholic acid	0.015941803282651674
+480	Butyric Acid	Glycocholic acid	0.017469179359886157
+481	Isovaleric acid	L-ornithine	0.017469179359886157
+482	Glycocholic acid	Butyric Acid	0.017469179359886157
+483	L-ornithine	Isovaleric acid	0.017469179359886157
+484	Propionic Acid	Taurolithocholic acid	0.01789597940868085
+485	Taurolithocholic acid	Propionic Acid	0.01789597940868085
+486	Hyocholic Acid	Glycochenodeoxycholic Acid	0.019110387728639648
+487	Glycochenodeoxycholic Acid	Hyocholic Acid	0.019110387728639648
+488	Lithocholic Acid	Proline	0.019397975210418552
+489	Proline	Lithocholic Acid	0.019397975210418552
+490	Lysine	Leucine	0.019408887856994805
+491	Leucine	Lysine	0.019408887856994805
+492	Propionic Acid	Chenodeoxycholic acid	0.019691999533105294
+493	Chenodeoxycholic acid	Propionic Acid	0.019691999533105294
+494	alpha-Muricholic acid	Serine	0.019794798318218027
+495	Serine	alpha-Muricholic acid	0.019794798318218027
+496	Alanine	Tyrosine	0.019990310366498294
+497	Tyrosine	Alanine	0.019990310366498294
+498	Chenodeoxycholic acid	Glycodeoxycholic Acid	0.02001450530007337
+499	Glycodeoxycholic Acid	Chenodeoxycholic acid	0.02001450530007337
+500	Alanine	Valine	0.02001450530007337
+501	Valine	Alanine	0.02001450530007337
+502	Propionic Acid	Gamma-Aminobutyric Acid	0.02049291614695704
+503	Gamma-Aminobutyric Acid	Propionic Acid	0.02049291614695704
+504	Cholic Acid	Glycodeoxycholic Acid	0.02050567540802151
+505	Glycodeoxycholic Acid	Cholic Acid	0.02050567540802151
+506	Hyocholic Acid	Taurolithocholic acid	0.02118659624291863
+507	Taurolithocholic acid	Hyocholic Acid	0.02118659624291863
+508	Acetic Acid	Histidine	0.022085973190104486
+509	Histidine	Acetic Acid	0.022085973190104486
+510	Cholic Acid	Hyocholic Acid	0.0225034224561349
+511	Hyocholic Acid	Cholic Acid	0.0225034224561349
+512	Lithocholic Acid	Aspartic Acid	0.022619205573340916
+513	Aspartic Acid	Lithocholic Acid	0.022619205573340916
+514	Glycine	Phenylalanine	0.02283841252631927
+515	Phenylalanine	Glycine	0.02283841252631927
+516	Lithocholic Acid	Threonine	0.023267777005006568
+517	Threonine	Lithocholic Acid	0.023267777005006568
+518	Glycocholic acid	Glutamine	0.024131786710969324
+519	Glutamine	Glycocholic acid	0.024131786710969324
+520	Glycocholic acid	Threonine	0.025470398040991004
+521	Threonine	Glycocholic acid	0.025470398040991004
+522	Deoxycholic Acid	Glycochenodeoxycholic Acid	0.025706714442305486
+523	Glycochenodeoxycholic Acid	Deoxycholic Acid	0.025706714442305486
+524	Deoxycholic Acid	Lysine	0.026070664244247806
+525	Lysine	Deoxycholic Acid	0.026070664244247806
+526	Taurolithocholic acid	Lysine	0.02608648579092924
+527	Lysine	Taurolithocholic acid	0.02608648579092924
+528	Butyric Acid	Taurocholic acid	0.026102619201323802
+529	Taurocholic acid	Butyric Acid	0.026102619201323802
+530	Butyric Acid	Tryptophan	0.02693455087304838
+531	Tryptophan	Butyric Acid	0.02693455087304838
+532	Propionic Acid	Valine	0.02706954603583386
+533	Valine	Propionic Acid	0.02706954603583386
+534	Butyric Acid	Glutamine	0.027086602522844803
+535	Glutamine	Butyric Acid	0.027086602522844803
+536	Deoxycholic Acid	Taurine	0.02738914766117034
+537	Taurine	Deoxycholic Acid	0.02738914766117034
+538	Butyric Acid	Glycochenodeoxycholic Acid	0.02919707458679486
+539	Glycochenodeoxycholic Acid	Butyric Acid	0.02919707458679486
+540	Cholic Acid	Methionine	0.029599208580155176
+541	Methionine	Cholic Acid	0.029599208580155176
+542	Aspartic Acid	Methionine	0.031049361744510225
+543	Methionine	Aspartic Acid	0.031049361744510225
+544	Glycine	L-ornithine	0.03112088051379463
+545	L-ornithine	Glycine	0.03112088051379463
+546	Glycodeoxycholic Acid	Alanine	0.031353458827094165
+547	Alanine	Glycodeoxycholic Acid	0.031353458827094165
+548	Taurocholic acid	Proline	0.03357573936644727
+549	Proline	Taurocholic acid	0.03357573936644727
+550	Acetic Acid	Taurolithocholic acid	0.03394044749534152
+551	Hyocholic Acid	Taurodeoxycholic acid	0.03394044749534152
+552	Taurolithocholic acid	Acetic Acid	0.03394044749534152
+553	Taurodeoxycholic acid	Hyocholic Acid	0.03394044749534152
+554	Serine	L-ornithine	0.03394044749534152
+555	L-ornithine	Serine	0.03394044749534152
+556	Phenylalanine	Tryptophan	0.03394044749534152
+557	Tryptophan	Phenylalanine	0.03394044749534152
+558	Lithocholic Acid	Tryptophan	0.03585961548079627
+559	Tryptophan	Lithocholic Acid	0.03585961548079627
+560	Acetic Acid	Gamma-Aminobutyric Acid	0.03618073746318534
+561	Gamma-Aminobutyric Acid	Acetic Acid	0.03618073746318534
+562	Chenodeoxycholic acid	Lysine	0.03680839213705683
+563	Lysine	Chenodeoxycholic acid	0.03680839213705683
+564	Glycine	l-Isoleucine	0.03901928252978859
+565	l-Isoleucine	Glycine	0.03901928252978859
+566	Arginine	Tyrosine	0.03973606143183133
+567	Tyrosine	Arginine	0.03973606143183133
+568	Deoxycholic Acid	Histidine	0.040035230133615325
+569	Histidine	Deoxycholic Acid	0.040035230133615325
+570	Arginine	L-ornithine	0.041926537477892004
+571	L-ornithine	Arginine	0.041926537477892004
+572	Acetic Acid	Taurodeoxycholic acid	0.04225516575330014
+573	Taurodeoxycholic acid	Acetic Acid	0.04225516575330014
+574	Propionic Acid	Glutamine	0.042621832030841834
+575	Glutamine	Propionic Acid	0.042621832030841834
+576	Glycodeoxycholic Acid	Glycine	0.04264587938112407
+577	Glycine	Glycodeoxycholic Acid	0.04264587938112407
+578	Deoxycholic Acid	Taurochenodeoxycholic acid	0.0431891672476238
+579	Taurochenodeoxycholic acid	Deoxycholic Acid	0.0431891672476238
+580	Isovaleric acid	Hyocholic Acid	0.04498525794231566
+581	Hyocholic Acid	Isovaleric acid	0.04498525794231566
+582	Hyocholic Acid	Gamma-Aminobutyric Acid	0.046305478724235835
+583	Alanine	Phenylalanine	0.046305478724235835
+584	Gamma-Aminobutyric Acid	Hyocholic Acid	0.046305478724235835
+585	Phenylalanine	Alanine	0.046305478724235835
+586	Glycodeoxycholic Acid	Taurodeoxycholic acid	0.04782293873717925
+587	Taurodeoxycholic acid	Glycodeoxycholic Acid	0.04782293873717925
+588	Acetic Acid	Glycolithocholic acid	0.04844653060032369
+589	Glycolithocholic acid	Acetic Acid	0.04844653060032369

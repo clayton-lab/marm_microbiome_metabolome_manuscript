@@ -1,6 +1,0 @@
-cluster_rank	cluster_X	cluster_Y	best_adjusted_pvalue
-1	Acetic Acid	Enterococcaceae_Enterococcus	0.02805940955733463
-2	Butyric Acid	Enterococcaceae_Enterococcus	0.02805940955733463
-3	Propionic Acid	Hafniaceae_Hafnia-Obesumbacterium	0.02805940955733463
-4	Isovaleric acid	Oscillospiraceae_Colidextribacter	0.02805940955733463
-5	Isovaleric acid	Bacteroidaceae_Bacteroides	0.036385757085233186

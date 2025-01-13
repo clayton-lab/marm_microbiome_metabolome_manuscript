@@ -1,0 +1,8 @@
+cluster_rank	cluster_X	cluster_Y	best_adjusted_pvalue
+1	Glutamine;Histidine;Glutamic Acid;Gamma-Aminobutyric Acid;Cholic Acid;Chenodeoxycholic acid;alpha-Muricholic acid;Glycocholic acid;Taurolithocholic acid;Taurocholic acid;Taurochenodeoxycholic acid;Taurodeoxycholic acid;Tryptophan;Glycochenodeoxycholic Acid;Taurine	Clostridiaceae_Clostridium_sensu_stricto_1	2.0307924619885634e-05
+2	Glycine;Alanine;Lysine	Lachnospiraceae_[Ruminococcus]_gnavus_group	0.0001733817443328838
+3	L-ornithine	Lachnospiraceae_[Ruminococcus]_gnavus_group	0.00044082967526669516
+4	Cholic Acid;Chenodeoxycholic acid;alpha-Muricholic acid;Glycocholic acid;Taurolithocholic acid;Taurocholic acid;Taurochenodeoxycholic acid;Taurodeoxycholic acid	Hafniaceae_Hafnia-Obesumbacterium	0.000860020222133231
+5	Taurocholic acid	Atopobiaceae_Olsenella	0.00773729298266887
+6	Glycochenodeoxycholic Acid	Hafniaceae_Hafnia-Obesumbacterium	0.016561226204248835
+7	Isovaleric acid	Bacteroidaceae_Bacteroides	0.03791059672029348

@@ -10,32 +10,21 @@ convertDF <- function(df, meta) {
 # https://uw.pressbooks.pub/appliedmultivariatestatistics/chapter/permanova/
 # https://uw.pressbooks.pub/appliedmultivariatestatistics/chapter/restricting-permutations/
 # https://stats.stackexchange.com/questions/590510/repeated-measures-permanova-nowhere-to-find
-runPermStress <- function(df) {
+
+runPerm <- function(df, threads) {
     library('vegan')
     library('labdsv')
+    # Sets random seed
     set.seed(13)
     D <- dsvdis(df$x, index="bray/curtis")
     within_perm <- how(nperm=9999, plots = Plots(strata=df$metaS$Individual, type = "none"), within=Within(type='free'), observed=TRUE)
     bet_perm <- how(nperm=9999, plots=Plots(strata=df$metaS$Individual, type='free'), within=Within(type='none'), observed=TRUE)
-    withinRes <- adonis2(D ~ Individual + Condition, data=df$metaS, permutation=within_perm)
-    betRes <- adonis2(D ~ Sex + Cage + Individual, data=df$metaS, permutation=bet_perm)
+    withinRes <- adonis2(D ~ Condition + Relative_Day, data=df$metaS, permutation=within_perm, by = "margin", parallel=threads)
+    betRes <- adonis2(D ~ Sex + Treatment_Group + Age, data=df$metaS, permutation=bet_perm, by = "margin", parallel=threads)
+    # Sets the seed to the system time (effectively resetting it)
     set.seed(Sys.time())
     return(list(betRes, withinRes))
 }
-
-runPermNoStress <- function(df) {
-    library('vegan')
-    library('labdsv')
-    set.seed(13)
-    D <- dsvdis(df$x, index="bray/curtis")
-    within_perm <- how(nperm=9999, plots = Plots(strata=df$metaS$Individual, type = "none"), within=Within(type='free'), observed=TRUE)
-    bet_perm <- how(nperm=9999, plots=Plots(strata=df$metaS$Individual, type='free'), within=Within(type='none'), observed=TRUE)
-    withinRes <- adonis2(D ~ Individual + Relative_Day, data=df$metaS, permutation=within_perm)
-    betRes <- adonis2(D ~ Sex + Cage + Individual, data=df$metaS, permutation=bet_perm)
-    set.seed(Sys.time())
-    return(list(betRes, withinRes))
-}
-
 
 # Calculates bray-curtis distance (optional) and performs a PCoA
 PCoA <- function(dat, D=NA, k=2) {
@@ -51,7 +40,8 @@ PCoA <- function(dat, D=NA, k=2) {
     return (ord)
 }
 
-ordplot <- function(dat, ord, pcos = 2, pointoutline = T,
+ordplot <- function(dat, ord, pcos = 2, pointoutline = T, keep_axislabels=T,
+        legend_order_colour=0, legend_order_shape=0, legend_order_size=0,
         colour = NA, colour_title = NA, colour_names = NA, colour_override = NA,
         shape = NA,  shape_title = NA,  shape_names = NA,  shape_override = NA,
         size = NA, size_title = NA, size_names = NA, size_override = NA,
@@ -93,7 +83,12 @@ ordplot <- function(dat, ord, pcos = 2, pointoutline = T,
         dims <- ord$ordnames[pcos]
     }
     colnames(pts) <- c("dim1", "dim2")
-    ggp <- ggp + xlab(dims[1]) + ylab(dims[2])
+    if (keep_axislabels==TRUE) {
+        ggp <- ggp + xlab(dims[1]) + ylab(dims[2])
+    } else {
+        ggp <- ggp + xlab(dims[1]) + ylab(dims[2]) +
+            theme(axis.title.x=element_blank(), axis.title.y=element_blank())
+    }
 
     # Use this mapping to allow the ordination to be done on a subset of the
     # data without requiring that dat also be that subset
@@ -199,7 +194,6 @@ ordplot <- function(dat, ord, pcos = 2, pointoutline = T,
         ggp <- ggp + stat_contour(aes(x=x, y=y, z=z), data=cdata,
                size=1, colour="black", binwidth=zrange/surf_maj_lines)
     }
-
     # Set up the plot to shape by some metadata
     if (!is.na(shape)) {
         shapeby <- getmeta(shape)
@@ -216,7 +210,8 @@ ordplot <- function(dat, ord, pcos = 2, pointoutline = T,
         }
 
         ggp <- ggp + guides(shape = guide_legend(title = shape_title,
-                                                 override.aes = list(size=4, fill="gray")))
+                                                 override.aes = list(size=4, fill="gray"),
+                                                 order=legend_order_shape))
 
         if (length(shape_override) > 1 || !is.na(shape_override)) {
             # User-defined shapes
@@ -276,7 +271,8 @@ ordplot <- function(dat, ord, pcos = 2, pointoutline = T,
         }
 
         pts$size <- sizeby
-        ggp <- ggp + guides(size = guide_legend(title = size_title))
+        ggp <- ggp + guides(size = guide_legend(title = size_title,
+                                                order=legend_order_size))
     } else {
         if (is.na(size_abs)) {
             gptopt$size <- min(6, 50 / sqrt(length(metamatch)))
@@ -337,18 +333,21 @@ ordplot <- function(dat, ord, pcos = 2, pointoutline = T,
             # Continuous data uses the RdYlGn palette
             library(viridis)
             ggp <- ggp + ggscale_gradientn(colours = viridis(100), na.value="grey80")
-            col_guide <- guide_colourbar(title = colour_title)
+            col_guide <- guide_colourbar(title = colour_title,
+                                        order=legend_order_colour)
         } else if (length(levels(colby)) > 9) {
             library(RColorBrewer)
             ggp <- ggp + ggscale_manual(values = colorRampPalette(
                 rev(brewer.pal(n = 7, name = "RdYlBu")))(length(levels(colby))))
             col_guide <- guide_legend(title = colour_title,
-                                    override.aes = list(size=3, shape=21))
+                                      override.aes = list(size=3, shape=21),
+                                      order=legend_order_colour)
         } else {
             # Discrete data uses the Set1 palette
             ggp <- ggp + scale_fill_brewer(palette = "Set1")
             col_guide <- guide_legend(title = colour_title,
-                                override.aes = list(size=3, shape=21))
+                                override.aes = list(size=3, shape=21),
+                                     order=legend_order_colour)
         }
         if (pointoutline) {
             ggp <- ggp + guides(fill = col_guide)
@@ -559,7 +558,7 @@ runMixedModel <- function(df) {
     rownames(resid) <- rownames(df$x)
     colnames(resid) <- colnames(df$x)
     
-    # A dataframe of p-value is created
+    # A dataframe of p-values is created
     sig <- data.frame('Feature_Name'=colnames(df$x))
     sig$pvaluePre <- NA
     sig$pvalueStress <- NA
@@ -571,19 +570,20 @@ runMixedModel <- function(df) {
     for (i in seq_along(colnames(df$x))) {
         y <- df$x[rownames(df$metaS),i]
         groupFC <- calculateLog2FC(y, df$metaS$Condition)
-        mdl <- suppressMessages(lmer((y ~ Condition + Sex + (1 | Individual)), data=df$metaS, REML=TRUE))
-
+        
+        # The model fits treatment condition as a fixed effect and subject as a random effect
+        mdl <- suppressMessages(lmer((y ~ Condition + (1 | Individual)), data=df$metaS, REML=TRUE))
+        
         sig$pvaluePre[i] <- summary(mdl)$coefficients['ConditionPre', 'Pr(>|t|)']
         sig$pvalueStress[i] <- summary(mdl)$coefficients['ConditionStress', 'Pr(>|t|)']
         sig$pvaluePost[i] <- summary(mdl)$coefficients['ConditionPost', 'Pr(>|t|)']
         sig$log2FCPre[i] <- groupFC['Pre']
         sig$log2FCStress[i] <- groupFC['Stress']
         sig$log2FCPost[i] <- groupFC['Post']
-        
+
         # Save full residuals for downstream analysis
         r <- residuals(mdl, type="pearson")
         resid[names(r),i] <- r
-
     }
     sig$qvaluePre <- p.adjust(sig$pvaluePre, 'fdr')
     sig$qvalueStress <- p.adjust(sig$pvalueStress, 'fdr')
@@ -595,26 +595,28 @@ runMixedModel <- function(df) {
     return(result)
 }
 
-# This is essentially the same function as the runMixedModel function, but it only uses a normal fixed-effects model
-# (because the number of replicates per individual is too small to run a mixed model)
-# and it extracts residuals without differential feature testing
-runFixedModel <- function(df) {
+# This is essentially the same function as the runMixedModel function, but it only 
+# extracts residuals without differential feature testing, and it uses a slightly different model
+extractResid <- function(df) {
     library('lme4')
+    library('bbmle')
     # Allocate output matrix
     resid <- matrix(NA, nrow(df$x), ncol(df$x))
     rownames(resid) <- rownames(df$x)
     colnames(resid) <- colnames(df$x)
-    
+
     for (i in seq_along(colnames(df$x))) {
         y <- df$x[rownames(df$metaS),i]
 
-        mdl <- lm((y ~ Individual + Sex + Cage), data=df$metaS)
-
+        # The model fits subject-specific effects as the independent variable
+        mdl <- lm((y ~ Individual), data=df$metaS)
+        
         # Save full residuals for downstream analysis
         r <- residuals(mdl, type="pearson")
         resid[names(r),i] <- r
 
     }
+
     resid <- as.data.frame(resid)
     return(resid)
 }
