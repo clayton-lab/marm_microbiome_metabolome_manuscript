@@ -14,15 +14,19 @@ convertDF <- function(df, meta) {
 runPerm <- function(df, threads) {
     library('vegan')
     library('labdsv')
+    
     # Sets random seed
     set.seed(13)
+    
     D <- dsvdis(df$x, index="bray/curtis")
-    within_perm <- how(nperm=9999, plots = Plots(strata=df$metaS$Individual, type = "none"), within=Within(type='free'), observed=TRUE)
+    within_perm <- how(nperm=9999, blocks=df$metaS$Treatment_Group, plots = Plots(strata=df$metaS$Individual, type = "none"), within=Within(type='free'), observed=TRUE)
     bet_perm <- how(nperm=9999, plots=Plots(strata=df$metaS$Individual, type='free'), within=Within(type='none'), observed=TRUE)
-    withinRes <- adonis2(D ~ Condition + Relative_Day, data=df$metaS, permutation=within_perm, by = "margin", parallel=threads)
-    betRes <- adonis2(D ~ Sex + Treatment_Group + Age, data=df$metaS, permutation=bet_perm, by = "margin", parallel=threads)
+    withinRes <- adonis2(D ~ Condition + Relative_Day, data=df$metaS, permutation=within_perm, by = "margin", parallel=threads, method="bray")
+    betRes <- adonis2(D ~ Sex + Treatment_Group + Age, data=df$metaS, permutation=bet_perm, by = "margin", parallel=threads, method="bray")
+    
     # Sets the seed to the system time (effectively resetting it)
     set.seed(Sys.time())
+    
     return(list(betRes, withinRes))
 }
 
@@ -618,5 +622,6 @@ extractResid <- function(df) {
     }
 
     resid <- as.data.frame(resid)
+    print('###############')
     return(resid)
 }
